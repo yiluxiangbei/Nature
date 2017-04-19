@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" > 
+       <LinearLayout android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="vertical">
+    <RadioGroup 
+            android:id="@+id/radioGrouphead" 
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+            android:showDividers="middle"> 
+              <RadioButton 
+                android:id="@+id/btnhead1" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="耳机1" 
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip" 
+                /> 
+              <RadioButton 
+                android:id="@+id/btnhead2" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="耳机2"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" /> 
+                
+                <RadioButton 
+                android:id="@+id/btnhead3" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="耳机3"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+                            
+               <RadioButton 
+                android:id="@+id/btnhead4" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="耳机4"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+               
+                <RadioButton 
+                android:id="@+id/btnhead5" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="耳机5"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+                            
+               <RadioButton 
+                android:id="@+id/btnhead6" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="耳机6"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+               
+                <RadioButton 
+                android:id="@+id/btnhead7" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="耳机7"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+          </RadioGroup> 
+          </LinearLayout>
+ </ScrollView> 

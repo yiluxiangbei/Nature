@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	<Button
+	    android:id="@+id/btn11"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "低音"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+	
+	<Button
+	    android:id="@+id/btn21"
+	    android:layout_below = "@+id/btn11"
+	    android:layout_marginTop="15dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "超重低音"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+		
+	
+	<Button
+	    android:id="@+id/btn31"
+	    android:layout_below = "@+id/btn21"
+	    android:layout_marginTop="15dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "电子"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+			
+	
+	<Button
+	    android:id="@+id/btn41"
+	    android:layout_below = "@+id/btn31"
+	    android:layout_marginTop="15dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "高音"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+	
+	<Button
+	    android:id="@+id/btn51"
+	    android:layout_below = "@+id/btn41"
+	    android:layout_marginTop="15dip"	    
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "平淡"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+	
+	<Button
+	    android:id="@+id/btn61"
+	    android:layout_below = "@+id/btn51"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+	    android:layout_marginTop="15dip"        
+        android:text = "经典"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+	
+	<Button
+	    android:id="@+id/btn71"
+	    android:layout_below = "@+id/btn61"
+	    android:layout_marginTop="15dip"	    
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "舞曲"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+	
+	<Button
+	    android:id="@+id/btn81"
+	    android:layout_below = "@+id/btn71"
+	    android:layout_marginTop="15dip"	    
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "摇滚"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+	
+	<Button
+	    android:id="@+id/btn91"
+	    android:layout_below = "@+id/btn81"
+	    android:layout_marginTop="15dip"	    
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "流行"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+	
+	
+	<Button
+	    android:id="@+id/btn101"
+	    android:layout_below = "@+id/btn91"
+	    android:layout_marginTop="15dip"	    
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "柔和"
+        android:textSize="20dp"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>

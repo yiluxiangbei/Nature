@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" > 
+       <LinearLayout android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="vertical">
+    <RadioGroup 
+            android:id="@+id/radioGrouproom" 
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+            android:divider="@android:color/holo_blue_light" 
+            android:showDividers="middle"> 
+              <RadioButton 
+                android:id="@+id/btnroom1" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="小房间" 
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip" 
+                /> 
+              <RadioButton 
+                android:id="@+id/btnroom2" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="中房间"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" /> 
+                
+                <RadioButton 
+                android:id="@+id/btnroom3" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="大房间"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio"
+                android:background = "@drawable/ratiobutton" 
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+                            
+               <RadioButton 
+                android:id="@+id/btnroom4" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="音乐厅"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio"
+                android:background = "@drawable/ratiobutton" 
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+               
+                <RadioButton 
+                android:id="@+id/btnroom5" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="小型演奏厅"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+                            
+               <RadioButton 
+                android:id="@+id/btnroom6" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="中型演奏厅"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+               
+                <RadioButton 
+                android:id="@+id/btnroom7" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"   
+                android:text="大型演奏厅"
+                android:textSize = "16dp"
+                android:button="@null"   
+                android:drawableRight="@android:drawable/btn_radio" 
+                android:background = "@drawable/ratiobutton"
+                android:paddingLeft="50dip"  
+                android:paddingTop="10dip" />
+          </RadioGroup> 
+          </LinearLayout>
+ </ScrollView> 

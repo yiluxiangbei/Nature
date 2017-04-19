@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp">
+    </LinearLayout>
+
+<HorizontalScrollView 
+android:id="@+id/ScrollView1"
+android:layout_height="wrap_content"
+android:layout_below="@+id/layout"
+android:layout_marginLeft="0dp"
+android:layout_marginTop="0dp"
+android:layout_width="fill_parent"
+android:scrollbarStyle="outsideInset"
+android:scrollbarThumbHorizontal="@drawable/scroll_img">
+<RelativeLayout android:id="@+id/LinearLayout02"
+android:layout_width="wrap_content" android:orientation="horizontal"
+android:layout_height="fill_parent">
+	<com.lee.nature.VerticalSeekBar	   
+	    android:id="@+id/csr1"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn1"
+	    android:layout_below= "@+id/csr1"
+	    android:layout_marginLeft="20dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "31"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<com.lee.nature.VerticalSeekBar	   
+	    android:id="@+id/csr2"
+	    android:layout_toRightOf="@+id/csr1"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn2"
+	    android:layout_below = "@+id/csr2"
+	    android:layout_marginLeft="60dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "62"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		
+	<com.lee.nature.VerticalSeekBar	   
+	    android:id="@+id/csr3"
+	    android:layout_toRightOf="@+id/csr2"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn3"
+	   	android:layout_marginLeft="100dip"
+	    android:layout_below = "@+id/csr3"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "125"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+			
+	<com.lee.nature.VerticalSeekBar	   
+	    android:id="@+id/csr4"
+	    android:layout_toRightOf="@+id/csr3"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn4"
+	    android:layout_below = "@+id/csr4"
+	    android:layout_marginLeft="140dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "250"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<com.lee.nature.VerticalSeekBar 
+	    android:id="@+id/csr5"
+	    android:layout_toRightOf="@+id/csr4"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn5"
+	    android:layout_below = "@+id/csr5"
+	    android:layout_marginLeft="180dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "500"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<com.lee.nature.VerticalSeekBar   
+	    android:id="@+id/csr6"
+	    android:layout_toRightOf="@+id/csr5"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn6"
+	    android:layout_below = "@+id/csr6"
+	    android:layout_marginLeft="220dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "1K"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<com.lee.nature.VerticalSeekBar   
+	    android:id="@+id/csr7"
+	    android:layout_toRightOf="@+id/csr6"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn7"
+	    android:layout_below = "@+id/csr7"
+	    android:layout_marginLeft="260dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "2K"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<com.lee.nature.VerticalSeekBar	   
+	    android:id="@+id/csr8"
+	    android:layout_toRightOf="@+id/csr7"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn8"
+	    android:layout_marginLeft="300dip"
+	    android:layout_below = "@+id/csr8"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "4K"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<com.lee.nature.VerticalSeekBar	   
+	    android:id="@+id/csr9"
+	    android:layout_toRightOf="@+id/csr8"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn9"
+	    android:layout_below = "@+id/csr9"
+	    android:layout_marginLeft="340dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "8K"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<com.lee.nature.VerticalSeekBar   
+	    android:id="@+id/csr10"
+	    android:layout_toRightOf="@+id/csr9"
+		android:layout_width="40dip"
+		android:layout_height="300dip"
+		android:paddingTop="1dip" 
+		android:progressDrawable="@drawable/seekbar_img"
+		android:thumb="@drawable/thumb1"
+		android:thumbOffset="0dip"
+		android:max="100" />
+	<Button
+	    android:id="@+id/btn10"
+	    android:layout_below = "@+id/csr10"
+	    android:layout_marginLeft="380dip"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "16K"
+        android:textSize="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</RelativeLayout>
+</HorizontalScrollView>
+<RelativeLayout android:id="@+id/LinearLayout03"
+    android:layout_below="@+id/ScrollView1"
+    android:layout_width="fill_parent" 
+    android:orientation="horizontal"
+    android:layout_height="fill_parent">
+	<Button
+	    android:id="@+id/btnTurnOn"
+	    android:layout_marginTop="40dp"
+	    android:layout_marginLeft="25dp"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "均衡器"
+        android:textSize="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<Button
+	    android:id="@+id/btnPreSet"
+	    android:layout_marginTop="40dp"
+	    android:layout_toRightOf="@+id/btnTurnOn"
+	    android:layout_marginLeft="25dp"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "预设"
+        android:textSize="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		
+		<Button
+	    android:id="@+id/btnSave"
+	    android:layout_marginTop="40dp"
+	    android:layout_toRightOf="@+id/btnPreSet"
+	    android:layout_marginLeft="25dp"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "保存"
+        android:textSize="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<Button
+	    android:id="@+id/btnStyle"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginRight="25dp"
+	    android:layout_alignParentRight="true"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = ""
+        android:textSize="13dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />	
+		<Button
+	    android:id="@+id/btnReset"
+	    android:layout_marginTop="40dp"
+	    android:layout_marginRight="25dp"
+	    android:layout_alignParentRight="true"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "重置"
+        android:textSize="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<Button
+	    android:id="@+id/btnJump"
+	    android:layout_marginTop="40dp"
+	    android:layout_marginRight="25dp"
+	    android:layout_toLeftOf="@+id/btnReset"
+	    android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text = "响度"
+        android:textSize="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</RelativeLayout>
+
+</RelativeLayout>
